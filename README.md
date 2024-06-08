@@ -8,23 +8,23 @@ El fitxer requeriments.txt conté les llibreries per executar-los correctament.
 Quan així s'indica al títol del notebook, aquest està preparat per executar en entorn de Google Colab amb GPU.
 Els arxius de la carpeta src son els següents:
 
-1 - Unificació datasets.ipynb --> Aquest notbook conté els enllaços per obtenir els datasets, homogeneitzar les imatges i el recolliment dels paths i les característiques en un arxiu .csv
+**1 - Unificació datasets.ipynb** --> Aquest notbook conté els enllaços per obtenir els datasets, homogeneitzar les imatges i el recolliment dels paths i les característiques en un arxiu .csv
 
-2 - Anàlisi exploratori.ipynb --> Anàlisi exploratori del dataset resultant
+**2 - Anàlisi exploratori.ipynb** --> Anàlisi exploratori del dataset resultant
 
-3 - Preprocessament imatges_3CLASS.ipynb --> Aquest notebook preprocessa les imatges dels diferents datasets per a l'entrenament. El resultat son arrays de numpy per ser entrenades (en el nostre cas a Google Colab)
+**3 - Preprocessament imatges completes.ipynb** --> Aquest notebook preprocessa les imatges dels diferents datasets per a l'entrenament. El resultat son arrays de numpy per ser entrenades (en el nostre cas a Google Colab)
 
-4 - Preprocessament imatges patches.ipynb --> Aquest notebook preprocessa les imatges retallant patches de les zones d'interes. S'obtenen arrays de numpy per ser entrenades a Google Colab
+**4 - Preprocessament imatges patches.ipynb** --> Aquest notebook preprocessa les imatges retallant patches de les zones d'interes. S'obtenen arrays de numpy per ser entrenades a Google Colab
 
-5 - Models amb mamografies completes-COLAB.ipynb --> Notebook per a l'entrenament de les imatges senceres. Pren com entrada els arrays de numpy i obté un model entrenat.
+**5 - Models amb mamografies completes COLAB.ipynb** --> Notebook per a l'entrenament de les imatges senceres. Pren com entrada els arrays de numpy i obté un model entrenat.
 
-6 - Models amb patches-COLAB.ipynb --> Notebook per a l'entrenament de les imatges retallades. Pren com entrada els arrays de numpy i obté un model entrenat.
+**6 - Models amb patches COLAB.ipynb** --> Notebook per a l'entrenament de les imatges retallades. Pren com entrada els arrays de numpy i obté un model entrenat.
 
-7 - Hiperparametrització full mammo-COLAB.ipynb --> Hiperparametrització dels models per a les imatges senceres
+**7 - Hiperparametrització full mammo COLAB.ipynb** --> Hiperparametrització dels models per a les imatges senceres
 
-8 - Hiperparametrització patches-COLAB.ipynb --> Hiperparametrització dels models per a les imatges retallades
+**8 - Hiperparametrització patches COLAB.ipynb** --> Hiperparametrització dels models per a les imatges retallades
 
-9 - Model_ensembling-COLAB.ipynb --> Notebook per realitzar ensembling dels millors models obtinguts en les imatges senceres. 
+**9 - Model ensembling COLAB.ipynb** --> Notebook per realitzar ensembling dels millors models obtinguts en les imatges senceres. 
 
 
 Addicionalment es proporcionen els enllaços a Zenodo, disponibles sota petició:
